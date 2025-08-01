@@ -11,7 +11,7 @@ export function Hero() {
   return (
     <div className="relative">
       {/* Pattern switcher */}
-      <div className="fixed top-4 right-4 z-50 flex gap-2">
+      <div className="fixed top-20 right-4 z-40 flex gap-2">
         <Button
           size="sm"
           variant={currentPattern === 1 ? "default" : "outline"}
