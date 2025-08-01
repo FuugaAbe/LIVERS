@@ -25,7 +25,7 @@ export function Hero() {
               <Button size="lg" className="bg-gradient-to-r from-pink-500 to-violet-500 hover:from-pink-600 hover:to-violet-600 text-white font-semibold px-8 py-3 text-lg">
                 🚀 今すぐ応募する
               </Button>
-              <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-gray-900 px-8 py-3 text-lg">
+              <Button size="lg" variant="outline" className="border-white text-white bg-white/10 hover:bg-white hover:text-gray-900 px-8 py-3 text-lg">
                 募集要項を見る
               </Button>
             </div>
@@ -53,11 +53,6 @@ export function Hero() {
         </div>
       </div>
       
-      <div className="absolute top-0 left-0 w-full h-full pointer-events-none">
-        <div className="absolute top-1/4 left-1/3 w-2 h-2 bg-white rounded-full opacity-60 animate-pulse" />
-        <div className="absolute top-1/2 right-1/4 w-1 h-1 bg-pink-400 rounded-full opacity-80 animate-pulse" style={{animationDelay: '1s'}} />
-        <div className="absolute bottom-1/3 left-1/4 w-1.5 h-1.5 bg-violet-400 rounded-full opacity-70 animate-pulse" style={{animationDelay: '2s'}} />
-      </div>
     </section>
   )
 }
