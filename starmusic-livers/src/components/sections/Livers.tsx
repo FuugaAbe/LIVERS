@@ -34,7 +34,7 @@ export function Livers() {
         <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
           {livers.map((liver, index) => (
             <Card key={index} className="overflow-hidden hover:shadow-lg transition-shadow duration-300">
-              <div className="aspect-square bg-gradient-to-br from-purple-200 to-blue-200 flex items-center justify-center">
+              <div className="aspect-square bg-gradient-to-br from-blue-200 to-blue-400 flex items-center justify-center">
                 <div className="text-6xl text-gray-400">🎤</div>
               </div>
               <CardContent className="p-6 text-center">

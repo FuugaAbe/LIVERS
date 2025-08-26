@@ -37,7 +37,7 @@ export function Header() {
 
           <Button 
             size="sm" 
-            className="bg-gradient-to-r from-pink-500 to-violet-500 hover:from-pink-600 hover:to-violet-600 text-white font-semibold"
+            className="bg-gradient-to-r from-blue-500 to-blue-700 hover:from-blue-600 hover:to-blue-800 text-white font-semibold"
           >
             エントリー
           </Button>

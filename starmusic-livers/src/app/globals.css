@@ -184,6 +184,13 @@
   --sidebar-accent-foreground: #30252E;
   --sidebar-border: #E5E4DF;
   --sidebar-ring: #0F40EE;
+  
+  /* Blue gradient utilities */
+  --blue-gradient-light: linear-gradient(135deg, var(--blue-100) 0%, var(--blue-300) 100%);
+  --blue-gradient-medium: linear-gradient(135deg, var(--blue-300) 0%, var(--blue-600) 100%);
+  --blue-gradient-bold: linear-gradient(135deg, var(--blue-500) 0%, var(--blue-700) 100%);
+  --blue-gradient-dark: linear-gradient(135deg, var(--blue-700) 0%, var(--blue-1000) 100%);
+  --blue-gradient-hero: linear-gradient(135deg, var(--blue-900) 0%, var(--blue-600) 50%, var(--blue-800) 100%);
 }
 
 .dark {
