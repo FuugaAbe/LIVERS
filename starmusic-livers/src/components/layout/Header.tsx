@@ -21,14 +21,17 @@ export function Header() {
             <a href="#about" className="text-white/80 hover:text-white transition-colors">
               事業所概要
             </a>
-            <a href="#audition" className="text-white/80 hover:text-white transition-colors">
-              オーディション
+            <a href="#strengths" className="text-white/80 hover:text-white transition-colors">
+              強み
+            </a>
+            <a href="#support" className="text-white/80 hover:text-white transition-colors">
+              サポート
             </a>
             <a href="#livers" className="text-white/80 hover:text-white transition-colors">
               ライバー紹介
             </a>
-            <a href="#support" className="text-white/80 hover:text-white transition-colors">
-              サポート
+            <a href="#audition" className="text-white/80 hover:text-white transition-colors">
+              オーディション
             </a>
             <a href="#faq" className="text-white/80 hover:text-white transition-colors">
               FAQ

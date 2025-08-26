@@ -20,7 +20,7 @@ export function Strengths() {
   ]
 
   return (
-    <section className="py-20 bg-white">
+    <section id="strengths" className="py-20 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-8 text-gray-900">
