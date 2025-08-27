@@ -11,7 +11,7 @@ export function Hero2() {
         <div className="flex flex-col justify-center h-full text-center max-w-4xl mx-auto">
           
           {/* Top badge */}
-          <div className="mb-8 mt-16">
+          <div className="mb-8">
             <div className="inline-flex items-center gap-2 px-6 py-3 bg-blue-600/20 rounded-full border border-blue-600/40 backdrop-blur-sm">
               <span className="w-2 h-2 bg-blue-600 rounded-full animate-pulse"></span>
               <span className="text-white font-semibold text-lg">🎤 LIVE配信者大募集</span>

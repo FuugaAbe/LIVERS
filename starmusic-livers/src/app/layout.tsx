@@ -33,7 +33,7 @@ export default function RootLayout({
         className={`${inter.variable} ${notoSansJP.variable} antialiased`}
       >
         <Header />
-        <main className="pt-16">
+        <main>
           {children}
         </main>
         <Footer />
