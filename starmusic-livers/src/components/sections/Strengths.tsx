@@ -20,7 +20,7 @@ export function Strengths() {
   ]
 
   return (
-    <section id="strengths" className="py-20 bg-white">
+    <section id="strengths" className="py-32 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-8 text-gray-900">
@@ -33,7 +33,7 @@ export function Strengths() {
         
         <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
           {strengths.map((strength, index) => (
-            <Card key={index} className="border-2 hover:border-purple-300 transition-colors duration-300 hover:shadow-lg">
+            <Card key={index} className="border border-gray-200">
               <CardHeader className="text-center pb-4">
                 <div className="text-4xl mb-4">{strength.icon}</div>
                 <CardTitle className="text-xl font-bold text-gray-900 leading-tight">

@@ -20,7 +20,7 @@ export function Livers() {
   ]
 
   return (
-    <section id="livers" className="py-20 bg-gray-50">
+    <section id="livers" className="py-32 bg-gray-50">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-8 text-gray-900">
@@ -33,7 +33,7 @@ export function Livers() {
         
         <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
           {livers.map((liver, index) => (
-            <Card key={index} className="overflow-hidden hover:shadow-lg transition-shadow duration-300 py-0">
+            <Card key={index} className="overflow-hidden py-0 border border-gray-200">
               <div className="aspect-square bg-blue-600 flex items-center justify-center">
                 <div className="text-6xl text-white">🎤</div>
               </div>
