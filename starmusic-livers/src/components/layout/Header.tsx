@@ -15,7 +15,7 @@ export function Header() {
         className="fixed top-6 left-6 z-50 w-12 h-12 bg-black/80 backdrop-blur-sm rounded-full flex items-center justify-center border border-white/20 hover:bg-black/90 transition-colors"
         aria-label="メニューを開く"
       >
-        <div className="space-y-1.5">
+        <div className="space-y-2">
           <div className="w-5 h-0.5 bg-white"></div>
           <div className="w-5 h-0.5 bg-white"></div>
           <div className="w-5 h-0.5 bg-white"></div>
