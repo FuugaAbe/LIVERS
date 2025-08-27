@@ -1,7 +1,6 @@
 'use client'
 
 import { Button } from '@/components/ui/button'
-import Image from 'next/image'
 import { useState } from 'react'
 
 export function Header() {
@@ -36,16 +35,7 @@ export function Header() {
             <div className="p-6">
               {/* ヘッダー部分 */}
               <div className="flex items-center justify-between mb-8">
-                <div className="flex items-center gap-3">
-                  <Image
-                    src="/logo.png"
-                    alt="StarMusic Livers"
-                    width={40}
-                    height={40}
-                    className="rounded-lg"
-                  />
-                  <h1 className="text-lg font-bold text-white">StarMusic Livers</h1>
-                </div>
+                <h1 className="text-lg font-bold text-white">StarMusic Livers</h1>
                 <button
                   onClick={() => setIsMenuOpen(false)}
                   className="w-8 h-8 flex items-center justify-center text-white/60 hover:text-white transition-colors"
