@@ -2,16 +2,16 @@ import { Button } from '@/components/ui/button'
 
 export function Hero2() {
   return (
-    <section className="h-screen relative overflow-hidden bg-black text-white">
+    <section className="min-h-screen relative overflow-hidden bg-black text-white py-16">
       {/* Background gradient overlay */}
       <div className="absolute inset-0 bg-blue-600/30" />
       
 
-      <div className="container mx-auto px-4 h-screen relative z-10">
-        <div className="flex flex-col justify-center h-full text-center max-w-4xl mx-auto">
+      <div className="container mx-auto px-4 min-h-screen relative z-10 flex items-center">
+        <div className="flex flex-col justify-center text-center max-w-4xl mx-auto w-full">
           
           {/* Top badge */}
-          <div className="mb-8">
+          <div className="mb-8 mt-20 md:mt-8">
             <div className="inline-flex items-center gap-2 px-6 py-3 bg-blue-600/20 rounded-full border border-blue-600/40 backdrop-blur-sm">
               <span className="w-2 h-2 bg-blue-600 rounded-full animate-pulse"></span>
               <span className="text-white font-semibold text-lg">🎤 LIVE配信者大募集</span>
