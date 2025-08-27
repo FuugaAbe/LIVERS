@@ -12,7 +12,7 @@ export function Header() {
       {/* ハンバーガーメニューボタン */}
       <button
         onClick={() => setIsMenuOpen(true)}
-        className="fixed top-6 left-6 z-50 w-12 h-12 bg-black/80 backdrop-blur-sm rounded-full flex items-center justify-center border border-white/20 hover:bg-black/90 transition-colors"
+        className="fixed top-6 right-6 z-50 w-12 h-12 bg-blue-600/90 backdrop-blur-sm rounded-full flex items-center justify-center border border-blue-400/30 hover:bg-blue-600 transition-colors"
         aria-label="メニューを開く"
       >
         <div className="space-y-2">
@@ -32,7 +32,7 @@ export function Header() {
           ></div>
           
           {/* メニューパネル */}
-          <div className="fixed top-0 left-0 h-full w-80 bg-black/95 backdrop-blur-md z-50 border-r border-white/20">
+          <div className="fixed top-0 right-0 h-full w-80 bg-blue-900/95 backdrop-blur-md z-50 border-l border-blue-400/20">
             <div className="p-6">
               {/* ヘッダー部分 */}
               <div className="flex items-center justify-between mb-8">
