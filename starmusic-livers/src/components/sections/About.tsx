@@ -8,7 +8,7 @@ export function About() {
           </h2>
           <div className="text-lg md:text-xl text-gray-700 leading-relaxed space-y-6">
             <p>
-              <span className="font-semibold text-purple-600">StarMusic Livers</span>は、音楽アーティストの夢を追いかけるライバーのためのコミュニティ（箱）です。
+              <span className="font-semibold text-blue-600">StarMusic Livers</span>は、音楽アーティストの夢を追いかけるライバーのためのコミュニティ（箱）です。
             </p>
             <p>
               私たちは、あなたがライブ配信活動で安定した収益を確保しながら、音楽の夢を実現するための最適な環境を提供します。

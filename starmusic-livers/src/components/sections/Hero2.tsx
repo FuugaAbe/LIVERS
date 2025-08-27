@@ -20,7 +20,7 @@ export function Hero2() {
           <div className="mb-8">
             <div className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-blue-500/20 to-blue-300/20 rounded-full border border-blue-400/40 backdrop-blur-sm">
               <span className="w-2 h-2 bg-blue-400 rounded-full animate-pulse"></span>
-              <span className="text-blue-300 font-semibold text-lg">🎤 LIVE配信者大募集</span>
+              <span className="text-white font-semibold text-lg">🎤 LIVE配信者大募集</span>
               <span className="w-2 h-2 bg-blue-400 rounded-full animate-pulse"></span>
             </div>
           </div>
@@ -44,7 +44,7 @@ export function Hero2() {
           </p>
 
           {/* Description */}
-          <p className="text-lg md:text-xl mb-12 text-gray-400 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-lg md:text-xl mb-12 text-white max-w-3xl mx-auto leading-relaxed">
             プロの機材・専門スタッフ・マーケティング支援まで完全サポート<br />
             初心者から経験者まで、あなたの音楽を世界に届けます
           </p>
@@ -66,21 +66,21 @@ export function Hero2() {
                 <span className="text-2xl">💰</span>
               </div>
               <h3 className="text-xl font-semibold mb-2 text-white">高収益保証</h3>
-              <p className="text-gray-400">業界最高水準の報酬体系</p>
+              <p className="text-white">業界最高水準の報酬体系</p>
             </div>
             <div className="text-center">
               <div className="w-16 h-16 bg-gradient-to-br from-blue-600/20 to-blue-700/20 rounded-2xl flex items-center justify-center mx-auto mb-4 border border-blue-600/30">
                 <span className="text-2xl">🎵</span>
               </div>
               <h3 className="text-xl font-semibold mb-2 text-white">プロ機材完備</h3>
-              <p className="text-gray-400">最高品質の配信環境を提供</p>
+              <p className="text-white">最高品質の配信環境を提供</p>
             </div>
             <div className="text-center">
               <div className="w-16 h-16 bg-gradient-to-br from-blue-700/20 to-blue-800/20 rounded-2xl flex items-center justify-center mx-auto mb-4 border border-blue-700/30">
                 <span className="text-2xl">🚀</span>
               </div>
               <h3 className="text-xl font-semibold mb-2 text-white">全面サポート</h3>
-              <p className="text-gray-400">デビューから成長まで徹底支援</p>
+              <p className="text-white">デビューから成長まで徹底支援</p>
             </div>
           </div>
         </div>

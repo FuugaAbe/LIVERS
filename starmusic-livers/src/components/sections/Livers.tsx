@@ -35,7 +35,7 @@ export function Livers() {
           {livers.map((liver, index) => (
             <Card key={index} className="overflow-hidden hover:shadow-lg transition-shadow duration-300">
               <div className="aspect-square bg-gradient-to-br from-blue-200 to-blue-400 flex items-center justify-center">
-                <div className="text-6xl text-gray-400">🎤</div>
+                <div className="text-6xl text-white">🎤</div>
               </div>
               <CardContent className="p-6 text-center">
                 <h3 className="text-xl font-bold text-gray-900 mb-2">{liver.name}</h3>
