@@ -2,9 +2,9 @@ import { Button } from '@/components/ui/button'
 
 export function Hero2() {
   return (
-    <section className="min-h-screen relative overflow-hidden bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white">
+    <section className="min-h-screen relative overflow-hidden bg-black text-white pt-16">
       {/* Background gradient overlay */}
-      <div className="absolute inset-0 bg-gradient-to-br from-blue-600/20 via-purple-600/10 to-indigo-600/20" />
+      <div className="absolute inset-0 bg-blue-600/30" />
       
       {/* Animated background elements */}
       <div className="absolute inset-0 overflow-hidden">
@@ -26,14 +26,14 @@ export function Hero2() {
           </div>
 
           {/* Main heading */}
-          <h1 className="text-7xl md:text-9xl font-black mb-8 leading-[0.85] tracking-tight">
-            <span className="block bg-gradient-to-r from-blue-400 via-purple-400 to-indigo-400 bg-clip-text text-transparent">
+          <h1 className="text-6xl md:text-8xl font-black mb-8 leading-tight">
+            <span className="block text-blue-600">
               次世代の
             </span>
-            <span className="block bg-gradient-to-r from-purple-400 via-indigo-400 to-blue-400 bg-clip-text text-transparent">
+            <span className="block text-blue-600">
               音楽ライバー
             </span>
-            <span className="block text-white mt-6 font-extrabold">
+            <span className="block text-white mt-4">
               になろう
             </span>
           </h1>
