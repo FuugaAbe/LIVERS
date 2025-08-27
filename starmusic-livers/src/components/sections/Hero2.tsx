@@ -2,7 +2,7 @@ import { Button } from '@/components/ui/button'
 
 export function Hero2() {
   return (
-    <section className="min-h-screen relative overflow-hidden bg-black text-white">
+    <section className="min-h-screen relative overflow-hidden bg-black text-white pt-16">
       {/* Background gradient overlay */}
       <div className="absolute inset-0 bg-blue-600/30" />
       
