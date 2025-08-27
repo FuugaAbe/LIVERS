@@ -4,7 +4,7 @@ export function Hero2() {
   return (
     <section className="min-h-screen relative overflow-hidden bg-black text-white">
       {/* Background gradient overlay */}
-      <div className="absolute inset-0 bg-gradient-to-r from-blue-900/30 via-blue-700/40 to-blue-800/30" />
+      <div className="absolute inset-0 bg-blue-600/30" />
       
       {/* Animated background elements */}
       <div className="absolute inset-0 overflow-hidden">
@@ -18,19 +18,19 @@ export function Hero2() {
           
           {/* Top badge */}
           <div className="mb-8">
-            <div className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-blue-500/20 to-blue-300/20 rounded-full border border-blue-400/40 backdrop-blur-sm">
-              <span className="w-2 h-2 bg-blue-400 rounded-full animate-pulse"></span>
+            <div className="inline-flex items-center gap-2 px-6 py-3 bg-blue-600/20 rounded-full border border-blue-600/40 backdrop-blur-sm">
+              <span className="w-2 h-2 bg-blue-600 rounded-full animate-pulse"></span>
               <span className="text-white font-semibold text-lg">🎤 LIVE配信者大募集</span>
-              <span className="w-2 h-2 bg-blue-400 rounded-full animate-pulse"></span>
+              <span className="w-2 h-2 bg-blue-600 rounded-full animate-pulse"></span>
             </div>
           </div>
 
           {/* Main heading */}
           <h1 className="text-6xl md:text-8xl font-black mb-8 leading-tight">
-            <span className="block bg-gradient-to-r from-blue-400 via-blue-200 to-blue-300 bg-clip-text text-transparent">
+            <span className="block text-blue-600">
               次世代の
             </span>
-            <span className="block bg-gradient-to-r from-blue-300 via-blue-400 to-blue-200 bg-clip-text text-transparent">
+            <span className="block text-blue-600">
               音楽ライバー
             </span>
             <span className="block text-white mt-4">
@@ -51,7 +51,7 @@ export function Hero2() {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-12">
-            <Button size="lg" className="bg-gradient-to-r from-blue-500 to-blue-700 hover:from-blue-600 hover:to-blue-800 text-white font-bold px-12 py-4 text-xl rounded-full shadow-2xl hover:shadow-blue-500/25 transition-all duration-300 transform hover:scale-105">
+            <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white font-bold px-12 py-4 text-xl rounded-full shadow-2xl hover:shadow-blue-600/25 transition-all duration-300 transform hover:scale-105">
               ⚡ 今すぐエントリー
             </Button>
             <Button size="lg" variant="ghost" className="border-2 border-white/30 text-white bg-white/5 backdrop-blur-sm hover:bg-white/10 hover:border-white/50 px-12 py-4 text-xl rounded-full transition-all duration-300">
@@ -62,21 +62,21 @@ export function Hero2() {
           {/* Stats or features */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16">
             <div className="text-center">
-              <div className="w-16 h-16 bg-gradient-to-br from-blue-500/20 to-blue-600/20 rounded-2xl flex items-center justify-center mx-auto mb-4 border border-blue-500/30">
+              <div className="w-16 h-16 bg-blue-600/20 rounded-2xl flex items-center justify-center mx-auto mb-4 border border-blue-600/30">
                 <span className="text-2xl">💰</span>
               </div>
               <h3 className="text-xl font-semibold mb-2 text-white">高収益保証</h3>
               <p className="text-white">業界最高水準の報酬体系</p>
             </div>
             <div className="text-center">
-              <div className="w-16 h-16 bg-gradient-to-br from-blue-600/20 to-blue-700/20 rounded-2xl flex items-center justify-center mx-auto mb-4 border border-blue-600/30">
+              <div className="w-16 h-16 bg-blue-600/20 rounded-2xl flex items-center justify-center mx-auto mb-4 border border-blue-600/30">
                 <span className="text-2xl">🎵</span>
               </div>
               <h3 className="text-xl font-semibold mb-2 text-white">プロ機材完備</h3>
               <p className="text-white">最高品質の配信環境を提供</p>
             </div>
             <div className="text-center">
-              <div className="w-16 h-16 bg-gradient-to-br from-blue-700/20 to-blue-800/20 rounded-2xl flex items-center justify-center mx-auto mb-4 border border-blue-700/30">
+              <div className="w-16 h-16 bg-blue-600/20 rounded-2xl flex items-center justify-center mx-auto mb-4 border border-blue-600/30">
                 <span className="text-2xl">🚀</span>
               </div>
               <h3 className="text-xl font-semibold mb-2 text-white">全面サポート</h3>

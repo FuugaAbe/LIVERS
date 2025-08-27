@@ -30,7 +30,7 @@ export function Audition() {
           <p className="text-lg text-gray-600 max-w-2xl mx-auto mb-8">
             あなたの夢を一緒に叶えませんか？
           </p>
-          <Button size="lg" className="bg-gradient-to-r from-blue-500 to-blue-700 hover:from-blue-600 hover:to-blue-800 text-white font-semibold px-8 py-4 text-lg">
+          <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-8 py-4 text-lg">
             今すぐ応募する
           </Button>
         </div>
@@ -45,7 +45,7 @@ export function Audition() {
               {flowSteps.map((step, index) => (
                 <Card key={index} className="text-center border-2 hover:border-blue-300 transition-colors">
                   <CardHeader>
-                    <div className="w-16 h-16 mx-auto bg-gradient-to-r from-blue-500 to-blue-700 rounded-full flex items-center justify-center text-white text-2xl font-bold mb-4">
+                    <div className="w-16 h-16 mx-auto bg-blue-600 rounded-full flex items-center justify-center text-white text-2xl font-bold mb-4">
                       {step.step}
                     </div>
                     <CardTitle className="text-xl">{step.title}</CardTitle>
