@@ -9,7 +9,7 @@ import { FAQ } from '@/components/sections/FAQ'
 export default function Home() {
   return (
     <div className="min-h-screen">
-      <Hero />
+      <Hero backgroundImage="/path/to/your/background-image.jpg" />
       <About />
       <Strengths />
       <Support />
