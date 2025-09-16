@@ -54,33 +54,36 @@ export function Hero2({ backgroundImage }: Hero2Props = {}) {
               す。
             </p>
           </div>
-        </div>
 
-        {/* Bottom section - exactly like reference */}
-        <div className="space-y-6">
-          {/* Stats - exactly like reference */}
-          <div className="grid grid-cols-3 gap-4 lg:gap-8">
-            <div className="text-center">
-              <div className="w-10 h-10 lg:w-12 lg:h-12 bg-blue-600/20 rounded-xl flex items-center justify-center mx-auto mb-2 border border-blue-600/30">
-                <span className="text-lg">🔒</span>
+          {/* Stats - moved above CTA buttons */}
+          <div>
+            <div className="grid grid-cols-3 gap-4 lg:gap-8">
+              <div className="text-center">
+                <div className="w-10 h-10 lg:w-12 lg:h-12 bg-blue-600/20 rounded-xl flex items-center justify-center mx-auto mb-2 border border-blue-600/30">
+                  <span className="text-lg">🔒</span>
+                </div>
+                <h3 className="text-xs sm:text-sm font-semibold text-white">高収益保証</h3>
               </div>
-              <h3 className="text-xs sm:text-sm font-semibold text-white">高収益保証</h3>
-            </div>
-            <div className="text-center">
-              <div className="w-10 h-10 lg:w-12 lg:h-12 bg-blue-600/20 rounded-xl flex items-center justify-center mx-auto mb-2 border border-blue-600/30">
-                <span className="text-lg">🎵</span>
+              <div className="text-center">
+                <div className="w-10 h-10 lg:w-12 lg:h-12 bg-blue-600/20 rounded-xl flex items-center justify-center mx-auto mb-2 border border-blue-600/30">
+                  <span className="text-lg">🎵</span>
+                </div>
+                <h3 className="text-xs sm:text-sm font-semibold text-white">プロ機材完備</h3>
               </div>
-              <h3 className="text-xs sm:text-sm font-semibold text-white">プロ機材完備</h3>
-            </div>
-            <div className="text-center">
-              <div className="w-10 h-10 lg:w-12 lg:h-12 bg-blue-600/20 rounded-xl flex items-center justify-center mx-auto mb-2 border border-blue-600/30">
-                <span className="text-lg">🚀</span>
+              <div className="text-center">
+                <div className="w-10 h-10 lg:w-12 lg:h-12 bg-blue-600/20 rounded-xl flex items-center justify-center mx-auto mb-2 border border-blue-600/30">
+                  <span className="text-lg">🚀</span>
+                </div>
+                <h3 className="text-xs sm:text-sm font-semibold text-white">全面サポート</h3>
               </div>
-              <h3 className="text-xs sm:text-sm font-semibold text-white">全面サポート</h3>
             </div>
           </div>
+        </div>
 
-          {/* CTA Buttons - exactly like reference */}
+        {/* Bottom section - CTA buttons */}
+        <div>
+
+          {/* CTA Buttons - moved to bottom */}
           <div className="flex flex-col gap-3 items-center">
             <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white font-bold px-12 py-4 text-base rounded-full shadow-xl hover:shadow-blue-600/25 transition-all duration-300 transform hover:scale-105 w-full max-w-sm">
               ⚡ 今すぐエントリー
