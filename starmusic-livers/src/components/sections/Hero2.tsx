@@ -68,27 +68,27 @@ export function Hero2({ backgroundImage }: Hero2Props = {}) {
           </div>
 
           {/* Stats or features */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-4">
-            <div className="text-center lg:text-left">
-              <div className="w-12 h-12 bg-blue-600/20 rounded-xl flex items-center justify-center mx-auto lg:mx-0 mb-2 border border-blue-600/30">
-                <span className="text-lg">💰</span>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 mt-6">
+            <div className="text-center lg:text-left py-4 sm:py-2">
+              <div className="w-14 h-14 sm:w-12 sm:h-12 bg-blue-600/20 rounded-xl flex items-center justify-center mx-auto lg:mx-0 mb-3 sm:mb-2 border border-blue-600/30">
+                <span className="text-xl sm:text-lg">💰</span>
               </div>
-              <h3 className="text-sm font-semibold mb-1 text-white">高収益保証</h3>
-              <p className="text-white text-xs opacity-90">業界最高水準の報酬体系</p>
+              <h3 className="text-base sm:text-sm font-semibold mb-2 sm:mb-1 text-white">高収益保証</h3>
+              <p className="text-white text-sm sm:text-xs opacity-90 px-2 sm:px-0">業界最高水準の報酬体系</p>
             </div>
-            <div className="text-center lg:text-left">
-              <div className="w-12 h-12 bg-blue-600/20 rounded-xl flex items-center justify-center mx-auto lg:mx-0 mb-2 border border-blue-600/30">
-                <span className="text-lg">🎵</span>
+            <div className="text-center lg:text-left py-4 sm:py-2">
+              <div className="w-14 h-14 sm:w-12 sm:h-12 bg-blue-600/20 rounded-xl flex items-center justify-center mx-auto lg:mx-0 mb-3 sm:mb-2 border border-blue-600/30">
+                <span className="text-xl sm:text-lg">🎵</span>
               </div>
-              <h3 className="text-sm font-semibold mb-1 text-white">プロ機材完備</h3>
-              <p className="text-white text-xs opacity-90">最高品質の配信環境を提供</p>
+              <h3 className="text-base sm:text-sm font-semibold mb-2 sm:mb-1 text-white">プロ機材完備</h3>
+              <p className="text-white text-sm sm:text-xs opacity-90 px-2 sm:px-0">最高品質の配信環境を提供</p>
             </div>
-            <div className="text-center lg:text-left">
-              <div className="w-12 h-12 bg-blue-600/20 rounded-xl flex items-center justify-center mx-auto lg:mx-0 mb-2 border border-blue-600/30">
-                <span className="text-lg">🚀</span>
+            <div className="text-center lg:text-left py-4 sm:py-2 sm:col-span-2 lg:col-span-1">
+              <div className="w-14 h-14 sm:w-12 sm:h-12 bg-blue-600/20 rounded-xl flex items-center justify-center mx-auto lg:mx-0 mb-3 sm:mb-2 border border-blue-600/30">
+                <span className="text-xl sm:text-lg">🚀</span>
               </div>
-              <h3 className="text-sm font-semibold mb-1 text-white">全面サポート</h3>
-              <p className="text-white text-xs opacity-90">デビューから成長まで徹底支援</p>
+              <h3 className="text-base sm:text-sm font-semibold mb-2 sm:mb-1 text-white">全面サポート</h3>
+              <p className="text-white text-sm sm:text-xs opacity-90 px-2 sm:px-0">デビューから成長まで徹底支援</p>
             </div>
           </div>
           </div>
