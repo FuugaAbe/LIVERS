@@ -34,51 +34,51 @@ export function Hero2({ backgroundImage }: Hero2Props = {}) {
           </div>
 
           {/* Main heading */}
-          <h1 className="text-2xl sm:text-3xl lg:text-5xl xl:text-6xl font-black mb-2 lg:mb-3 leading-tight">
+          <h1 className="text-2xl sm:text-3xl lg:text-5xl xl:text-6xl font-black mb-4 lg:mb-3 leading-tight">
             <span className="block text-blue-600">
               次世代の
             </span>
             <span className="block text-blue-600">
               音楽ライバー
             </span>
-            <span className="block text-white mt-1 lg:mt-2">
+            <span className="block text-white mt-2">
               になろう
             </span>
           </h1>
 
           {/* Subtitle */}
-          <p className="text-sm sm:text-base lg:text-xl mb-2 lg:mb-3 text-gray-300 font-light">
+          <p className="text-sm sm:text-base lg:text-xl mb-4 lg:mb-3 text-gray-300 font-light">
             音楽×配信で新しい可能性を
           </p>
 
           {/* Description */}
-          <p className="text-xs sm:text-sm lg:text-base mb-3 lg:mb-4 text-white max-w-2xl lg:max-w-none leading-relaxed">
+          <p className="text-xs sm:text-sm lg:text-base mb-5 lg:mb-4 text-white max-w-2xl lg:max-w-none leading-relaxed">
             プロの機材・専門スタッフ・マーケティング支援まで完全サポート<br className="hidden sm:block" />
             <span className="sm:hidden"> </span>初心者から経験者まで、あなたの音楽を世界に届けます
           </p>
 
-          {/* Stats or features - Moved before CTA buttons for mobile */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 mb-10 lg:mt-6 lg:mb-0 order-3 lg:order-none">
+          {/* Stats or features - Now horizontal on all screen sizes */}
+          <div className="grid grid-cols-3 gap-2 sm:gap-4 lg:gap-6 mb-10 lg:mt-6 lg:mb-0 order-3 lg:order-none">
             <div className="text-center lg:text-left py-2">
-              <div className="w-12 h-12 bg-blue-600/20 rounded-xl flex items-center justify-center mx-auto lg:mx-0 mb-2 border border-blue-600/30">
-                <span className="text-lg">💰</span>
+              <div className="w-8 h-8 sm:w-10 sm:h-10 lg:w-12 lg:h-12 bg-blue-600/20 rounded-lg lg:rounded-xl flex items-center justify-center mx-auto lg:mx-0 mb-1 sm:mb-2 border border-blue-600/30">
+                <span className="text-sm sm:text-base lg:text-lg">💰</span>
               </div>
-              <h3 className="text-sm font-semibold mb-1 text-white">高収益保証</h3>
-              <p className="text-white text-xs opacity-90">業界最高水準の報酬体系</p>
+              <h3 className="text-xs sm:text-sm font-semibold mb-1 text-white">高収益保証</h3>
+              <p className="text-white text-xs opacity-90 hidden sm:block">業界最高水準の報酬体系</p>
             </div>
             <div className="text-center lg:text-left py-2">
-              <div className="w-12 h-12 bg-blue-600/20 rounded-xl flex items-center justify-center mx-auto lg:mx-0 mb-2 border border-blue-600/30">
-                <span className="text-lg">🎵</span>
+              <div className="w-8 h-8 sm:w-10 sm:h-10 lg:w-12 lg:h-12 bg-blue-600/20 rounded-lg lg:rounded-xl flex items-center justify-center mx-auto lg:mx-0 mb-1 sm:mb-2 border border-blue-600/30">
+                <span className="text-sm sm:text-base lg:text-lg">🎵</span>
               </div>
-              <h3 className="text-sm font-semibold mb-1 text-white">プロ機材完備</h3>
-              <p className="text-white text-xs opacity-90">最高品質の配信環境を提供</p>
+              <h3 className="text-xs sm:text-sm font-semibold mb-1 text-white">プロ機材完備</h3>
+              <p className="text-white text-xs opacity-90 hidden sm:block">最高品質の配信環境を提供</p>
             </div>
-            <div className="text-center lg:text-left py-2 sm:col-span-2 lg:col-span-1">
-              <div className="w-12 h-12 bg-blue-600/20 rounded-xl flex items-center justify-center mx-auto lg:mx-0 mb-2 border border-blue-600/30">
-                <span className="text-lg">🚀</span>
+            <div className="text-center lg:text-left py-2">
+              <div className="w-8 h-8 sm:w-10 sm:h-10 lg:w-12 lg:h-12 bg-blue-600/20 rounded-lg lg:rounded-xl flex items-center justify-center mx-auto lg:mx-0 mb-1 sm:mb-2 border border-blue-600/30">
+                <span className="text-sm sm:text-base lg:text-lg">🚀</span>
               </div>
-              <h3 className="text-sm font-semibold mb-1 text-white">全面サポート</h3>
-              <p className="text-white text-xs opacity-90">デビューから成長まで徹底支援</p>
+              <h3 className="text-xs sm:text-sm font-semibold mb-1 text-white">全面サポート</h3>
+              <p className="text-white text-xs opacity-90 hidden sm:block">デビューから成長まで徹底支援</p>
             </div>
           </div>
 
