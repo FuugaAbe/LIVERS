@@ -22,10 +22,10 @@ export function FAQ() {
   ]
 
   return (
-    <section id="faq" className="py-32 bg-gray-100">
-      <div className="container mx-auto px-4">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-8 text-gray-900">
+    <section id="faq" className="py-30 bg-gray-100">
+      <div className="container mx-auto px-10">
+        <div className="text-center mb-10">
+          <h2 className="text-4xl md:text-5xl font-bold mb-10 text-gray-900">
             よくある質問
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
@@ -34,7 +34,7 @@ export function FAQ() {
         </div>
         
         <div className="max-w-4xl mx-auto">
-          <Accordion type="single" collapsible className="space-y-4">
+          <Accordion type="single" collapsible className="space-y-10">
             {faqs.map((faq, index) => (
               <AccordionItem key={index} value={`item-${index}`} className="bg-white border rounded-lg px-6">
                 <AccordionTrigger className="text-left text-lg font-semibold hover:no-underline">
@@ -48,7 +48,7 @@ export function FAQ() {
           </Accordion>
         </div>
         
-        <div className="text-center mt-16">
+        <div className="text-center mt-10">
           <p className="text-lg text-gray-600 mb-6">
             その他のご質問がございましたら、お気軽にお問い合わせください。
           </p>

@@ -20,10 +20,10 @@ export function Strengths() {
   ]
 
   return (
-    <section id="strengths" className="py-32 bg-white">
-      <div className="container mx-auto px-4">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-8 text-gray-900">
+    <section id="strengths" className="py-30 bg-white">
+      <div className="container mx-auto px-10">
+        <div className="text-center mb-10">
+          <h2 className="text-4xl md:text-5xl font-bold mb-10 text-gray-900">
             私たちの強み
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
@@ -31,7 +31,7 @@ export function Strengths() {
           </p>
         </div>
         
-        <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+        <div className="grid md:grid-cols-3 gap-10 max-w-6xl mx-auto">
           {strengths.map((strength, index) => (
             <Card key={index} className="border border-gray-200">
               <CardHeader className="text-center pb-4">

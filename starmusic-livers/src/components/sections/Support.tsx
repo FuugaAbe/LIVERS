@@ -20,10 +20,10 @@ export function Support() {
   ]
 
   return (
-    <section id="support" className="py-32 bg-blue-50">
-      <div className="container mx-auto px-4">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-8 text-gray-900">
+    <section id="support" className="py-30 bg-blue-50">
+      <div className="container mx-auto px-10">
+        <div className="text-center mb-10">
+          <h2 className="text-4xl md:text-5xl font-bold mb-10 text-gray-900">
             サポート内容
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
@@ -31,7 +31,7 @@ export function Support() {
           </p>
         </div>
         
-        <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+        <div className="grid md:grid-cols-3 gap-10 max-w-6xl mx-auto">
           {supportItems.map((item, index) => (
             <Card key={index} className="bg-white border border-gray-200">
               <CardHeader className="text-center pb-4">

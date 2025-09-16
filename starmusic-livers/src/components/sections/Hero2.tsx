@@ -18,8 +18,8 @@ export function Hero2({ backgroundImage }: Hero2Props = {}) {
       {/* Background gradient overlay */}
       <div className="absolute inset-0 bg-blue-600/30" />
 
-      <div className="container mx-auto px-4 h-full relative z-10 flex flex-col justify-between py-8 items-center">
-        <div className="flex-1 flex flex-col justify-center space-y-8 items-center">
+      <div className="container mx-auto px-10 h-full relative z-10 flex flex-col justify-between py-8 items-center">
+        <div className="flex-1 flex flex-col justify-center space-y-10 items-center">
 
           {/* Top badge - exactly like reference */}
           <div>
