@@ -20,9 +20,9 @@ export function Hero2({ backgroundImage }: Hero2Props = {}) {
       
 
       <div className="container mx-auto px-4 h-full relative z-10 flex items-center pt-12 pb-4">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center w-full max-w-7xl mx-auto">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start lg:items-center w-full max-w-7xl mx-auto">
           {/* Left side - Text content */}
-          <div className="flex flex-col justify-center text-left lg:text-left order-2 lg:order-1">
+          <div className="flex flex-col justify-start lg:justify-center text-left lg:text-left order-2 lg:order-1">
           
           {/* Top badge */}
           <div className="mb-3">
@@ -34,31 +34,56 @@ export function Hero2({ backgroundImage }: Hero2Props = {}) {
           </div>
 
           {/* Main heading */}
-          <h1 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-black mb-3 leading-tight">
+          <h1 className="text-2xl sm:text-3xl lg:text-5xl xl:text-6xl font-black mb-2 lg:mb-3 leading-tight">
             <span className="block text-blue-600">
               次世代の
             </span>
             <span className="block text-blue-600">
               音楽ライバー
             </span>
-            <span className="block text-white mt-2">
+            <span className="block text-white mt-1 lg:mt-2">
               になろう
             </span>
           </h1>
 
           {/* Subtitle */}
-          <p className="text-base sm:text-lg lg:text-xl mb-3 text-gray-300 font-light">
+          <p className="text-sm sm:text-base lg:text-xl mb-2 lg:mb-3 text-gray-300 font-light">
             音楽×配信で新しい可能性を
           </p>
 
           {/* Description */}
-          <p className="text-sm sm:text-base mb-4 text-white max-w-2xl lg:max-w-none leading-relaxed">
+          <p className="text-xs sm:text-sm lg:text-base mb-3 lg:mb-4 text-white max-w-2xl lg:max-w-none leading-relaxed">
             プロの機材・専門スタッフ・マーケティング支援まで完全サポート<br className="hidden sm:block" />
             <span className="sm:hidden"> </span>初心者から経験者まで、あなたの音楽を世界に届けます
           </p>
 
-          {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row gap-3 justify-start lg:justify-start items-start lg:items-center mb-6">
+          {/* Stats or features - Moved before CTA buttons for mobile */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 mb-10 lg:mt-6 lg:mb-0 order-3 lg:order-none">
+            <div className="text-center lg:text-left py-2">
+              <div className="w-12 h-12 bg-blue-600/20 rounded-xl flex items-center justify-center mx-auto lg:mx-0 mb-2 border border-blue-600/30">
+                <span className="text-lg">💰</span>
+              </div>
+              <h3 className="text-sm font-semibold mb-1 text-white">高収益保証</h3>
+              <p className="text-white text-xs opacity-90">業界最高水準の報酬体系</p>
+            </div>
+            <div className="text-center lg:text-left py-2">
+              <div className="w-12 h-12 bg-blue-600/20 rounded-xl flex items-center justify-center mx-auto lg:mx-0 mb-2 border border-blue-600/30">
+                <span className="text-lg">🎵</span>
+              </div>
+              <h3 className="text-sm font-semibold mb-1 text-white">プロ機材完備</h3>
+              <p className="text-white text-xs opacity-90">最高品質の配信環境を提供</p>
+            </div>
+            <div className="text-center lg:text-left py-2 sm:col-span-2 lg:col-span-1">
+              <div className="w-12 h-12 bg-blue-600/20 rounded-xl flex items-center justify-center mx-auto lg:mx-0 mb-2 border border-blue-600/30">
+                <span className="text-lg">🚀</span>
+              </div>
+              <h3 className="text-sm font-semibold mb-1 text-white">全面サポート</h3>
+              <p className="text-white text-xs opacity-90">デビューから成長まで徹底支援</p>
+            </div>
+          </div>
+
+          {/* CTA Buttons - Moved after stats for mobile */}
+          <div className="flex flex-col sm:flex-row gap-3 justify-start lg:justify-start items-start lg:items-center order-4 lg:order-none">
             <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white font-bold px-8 py-3 text-base rounded-full shadow-xl hover:shadow-blue-600/25 transition-all duration-300 transform hover:scale-105">
               ⚡ 今すぐエントリー
             </Button>
@@ -66,47 +91,22 @@ export function Hero2({ backgroundImage }: Hero2Props = {}) {
               📋 応募条件を確認
             </Button>
           </div>
-
-          {/* Stats or features */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 mt-6">
-            <div className="text-center lg:text-left py-4 sm:py-2">
-              <div className="w-14 h-14 sm:w-12 sm:h-12 bg-blue-600/20 rounded-xl flex items-center justify-center mx-auto lg:mx-0 mb-3 sm:mb-2 border border-blue-600/30">
-                <span className="text-xl sm:text-lg">💰</span>
-              </div>
-              <h3 className="text-base sm:text-sm font-semibold mb-2 sm:mb-1 text-white">高収益保証</h3>
-              <p className="text-white text-sm sm:text-xs opacity-90 px-2 sm:px-0">業界最高水準の報酬体系</p>
-            </div>
-            <div className="text-center lg:text-left py-4 sm:py-2">
-              <div className="w-14 h-14 sm:w-12 sm:h-12 bg-blue-600/20 rounded-xl flex items-center justify-center mx-auto lg:mx-0 mb-3 sm:mb-2 border border-blue-600/30">
-                <span className="text-xl sm:text-lg">🎵</span>
-              </div>
-              <h3 className="text-base sm:text-sm font-semibold mb-2 sm:mb-1 text-white">プロ機材完備</h3>
-              <p className="text-white text-sm sm:text-xs opacity-90 px-2 sm:px-0">最高品質の配信環境を提供</p>
-            </div>
-            <div className="text-center lg:text-left py-4 sm:py-2 sm:col-span-2 lg:col-span-1">
-              <div className="w-14 h-14 sm:w-12 sm:h-12 bg-blue-600/20 rounded-xl flex items-center justify-center mx-auto lg:mx-0 mb-3 sm:mb-2 border border-blue-600/30">
-                <span className="text-xl sm:text-lg">🚀</span>
-              </div>
-              <h3 className="text-base sm:text-sm font-semibold mb-2 sm:mb-1 text-white">全面サポート</h3>
-              <p className="text-white text-sm sm:text-xs opacity-90 px-2 sm:px-0">デビューから成長まで徹底支援</p>
-            </div>
-          </div>
           </div>
 
           {/* Right side - Character/Visual element */}
-          <div className="flex items-center justify-center order-1 lg:order-2 mb-8 lg:mb-0">
+          <div className="flex items-center justify-center order-1 lg:order-2 mb-6 lg:mb-0">
             <div className="relative">
               {/* Main character placeholder */}
-              <div className="w-64 h-64 sm:w-80 sm:h-80 lg:w-96 lg:h-96 bg-white/10 rounded-full flex items-center justify-center backdrop-blur-sm border border-white/20">
+              <div className="w-48 h-48 sm:w-56 sm:h-56 lg:w-96 lg:h-96 bg-white/10 rounded-full flex items-center justify-center backdrop-blur-sm border border-white/20">
                 <div className="text-center">
-                  <div className="text-4xl sm:text-6xl lg:text-8xl mb-4">🎤</div>
-                  <p className="text-white font-semibold text-base sm:text-lg">音楽ライバー</p>
-                  <p className="text-white/80 text-xs sm:text-sm">あなたの音楽を世界に</p>
+                  <div className="text-3xl sm:text-4xl lg:text-8xl mb-2 lg:mb-4">🎤</div>
+                  <p className="text-white font-semibold text-sm sm:text-base lg:text-lg">音楽ライバー</p>
+                  <p className="text-white/80 text-xs lg:text-sm">あなたの音楽を世界に</p>
                 </div>
               </div>
               {/* Decorative elements */}
-              <div className="absolute -top-2 -right-2 sm:-top-4 sm:-right-4 w-12 h-12 sm:w-16 sm:h-16 bg-blue-600/30 rounded-full backdrop-blur-sm animate-pulse"></div>
-              <div className="absolute -bottom-2 -left-2 sm:-bottom-4 sm:-left-4 w-8 h-8 sm:w-12 sm:h-12 bg-white/20 rounded-full backdrop-blur-sm"></div>
+              <div className="absolute -top-1 -right-1 sm:-top-2 sm:-right-2 lg:-top-4 lg:-right-4 w-8 h-8 sm:w-10 sm:h-10 lg:w-16 lg:h-16 bg-blue-600/30 rounded-full backdrop-blur-sm animate-pulse"></div>
+              <div className="absolute -bottom-1 -left-1 sm:-bottom-2 sm:-left-2 lg:-bottom-4 lg:-left-4 w-6 h-6 sm:w-8 sm:h-8 lg:w-12 lg:h-12 bg-white/20 rounded-full backdrop-blur-sm"></div>
             </div>
           </div>
         </div>
