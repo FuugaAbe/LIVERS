@@ -21,9 +21,9 @@ export function Support() {
 
   return (
     <section id="support" className="py-30 bg-blue-50">
-      <div className="container mx-auto px-10">
+      <div className="container mx-10 px-0">
         <div className="text-center mb-10">
-          <h2 className="text-4xl md:text-5xl font-bold mb-10 text-gray-900">
+          <h2 className="text-4xl md:text-5xl font-bold mb-4 text-gray-900">
             サポート内容
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
