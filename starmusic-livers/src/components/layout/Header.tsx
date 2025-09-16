@@ -10,13 +10,13 @@ export function Header() {
       {/* ハンバーガーメニューボタン */}
       <button
         onClick={() => setIsMenuOpen(true)}
-        className="fixed top-6 right-6 z-50 w-12 h-12 bg-blue-600/90 backdrop-blur-sm rounded-full flex items-center justify-center border border-blue-400/30 hover:bg-blue-600 transition-colors"
+        className="fixed top-6 right-6 z-50 w-12 h-12 bg-blue-600/90 backdrop-blur-sm rounded-full flex items-center justify-center border border-blue-400/30 hover:bg-blue-600 hover:scale-110 active:scale-95 transition-all duration-200"
         aria-label="メニューを開く"
       >
-        <div className="space-y-2">
-          <div className="w-5 h-0.5 bg-white"></div>
-          <div className="w-5 h-0.5 bg-white"></div>
-          <div className="w-5 h-0.5 bg-white"></div>
+        <div className="space-y-2 transition-transform duration-200 hover:rotate-180">
+          <div className="w-5 h-0.5 bg-white transition-all duration-200"></div>
+          <div className="w-5 h-0.5 bg-white transition-all duration-200"></div>
+          <div className="w-5 h-0.5 bg-white transition-all duration-200"></div>
         </div>
       </button>
 
@@ -48,10 +48,10 @@ export function Header() {
                 <div className="space-y-2">
                   <a
                     href="#home"
-                    className="flex items-center gap-2 py-2 text-blue-600 hover:text-blue-800 transition-colors"
+                    className="block py-2 text-gray-800 font-bold hover:text-blue-600 transition-colors"
                     onClick={() => setIsMenuOpen(false)}
                   >
-                    <span>→</span> Home
+                    Home
                   </a>
                   <a
                     href="#about"
