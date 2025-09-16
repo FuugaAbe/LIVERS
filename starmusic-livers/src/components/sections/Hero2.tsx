@@ -18,8 +18,8 @@ export function Hero2({ backgroundImage }: Hero2Props = {}) {
       {/* Background gradient overlay */}
       <div className="absolute inset-0 bg-blue-600/30" />
 
-      <div className="container mx-auto px-4 h-full relative z-10 flex flex-col justify-between py-8">
-        <div className="flex-1 flex flex-col justify-center space-y-8">
+      <div className="container mx-auto px-4 h-full relative z-10 flex flex-col justify-between py-8 items-center">
+        <div className="flex-1 flex flex-col justify-center space-y-8 items-center">
 
           {/* Top badge - exactly like reference */}
           <div>
@@ -31,7 +31,7 @@ export function Hero2({ backgroundImage }: Hero2Props = {}) {
 
           {/* Main heading - exactly like reference positioning */}
           <div>
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-black leading-tight text-left max-w-lg">
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-black leading-tight text-center max-w-lg mx-auto">
               <span className="block text-blue-600">バイラルヒットを</span>
               <span className="block text-blue-600">生み出す</span>
               <span className="block text-white">アーティストに</span>
@@ -40,14 +40,14 @@ export function Hero2({ backgroundImage }: Hero2Props = {}) {
 
           {/* Subtitle - exactly like reference */}
           <div>
-            <p className="text-lg sm:text-xl lg:text-2xl text-white font-medium max-w-md">
+            <p className="text-lg sm:text-xl lg:text-2xl text-white font-medium max-w-md text-center mx-auto">
               TikTok×音楽配信で世界へ羽ばたく！
             </p>
           </div>
 
           {/* Description - exactly like reference */}
           <div>
-            <p className="text-sm sm:text-base lg:text-lg text-white/90 leading-relaxed max-w-lg">
+            <p className="text-sm sm:text-base lg:text-lg text-white/90 leading-relaxed max-w-lg text-center mx-auto">
               総フォロワー5億人のTikTokクリエイターネットワークと<br />
               Apple Music・Spotifyなど主要プラットフォームへ<br />
               同時リリース。データ分析に基づく楽曲制作から<br />
