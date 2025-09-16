@@ -31,73 +31,77 @@ export function Header() {
           ></div>
           
           {/* メニューパネル */}
-          <div className="fixed top-0 right-0 h-full w-80 bg-blue-900/95 backdrop-blur-md z-50 border-l border-blue-400/20">
-            <div className="p-6">
+          <div className="fixed top-0 right-0 h-full w-96 bg-white z-50 shadow-2xl">
+            <div className="h-full flex flex-col">
               {/* ヘッダー部分 */}
-              <div className="flex items-center justify-between mb-8">
-                <h1 className="text-lg font-bold text-white">StarMusic Livers</h1>
+              <div className="flex items-center justify-between p-8 border-b border-gray-100">
+                <div className="text-xl font-bold text-gray-900">Menu</div>
                 <button
                   onClick={() => setIsMenuOpen(false)}
-                  className="w-8 h-8 flex items-center justify-center text-white/60 hover:text-white transition-colors"
+                  className="w-10 h-10 flex items-center justify-center text-gray-400 hover:text-gray-600 hover:bg-gray-100 rounded-full transition-all"
                   aria-label="メニューを閉じる"
                 >
-                  ✕
+                  <span className="text-2xl leading-none">×</span>
                 </button>
               </div>
 
               {/* ナビゲーション */}
-              <nav className="space-y-4 mb-8">
-                <a 
-                  href="#about" 
-                  className="block py-3 px-4 text-white/80 hover:text-white hover:bg-white/10 rounded-lg transition-all"
-                  onClick={() => setIsMenuOpen(false)}
-                >
-                  事業所概要
-                </a>
-                <a 
-                  href="#strengths" 
-                  className="block py-3 px-4 text-white/80 hover:text-white hover:bg-white/10 rounded-lg transition-all"
-                  onClick={() => setIsMenuOpen(false)}
-                >
-                  強み
-                </a>
-                <a 
-                  href="#support" 
-                  className="block py-3 px-4 text-white/80 hover:text-white hover:bg-white/10 rounded-lg transition-all"
-                  onClick={() => setIsMenuOpen(false)}
-                >
-                  サポート
-                </a>
-                <a 
-                  href="#livers" 
-                  className="block py-3 px-4 text-white/80 hover:text-white hover:bg-white/10 rounded-lg transition-all"
-                  onClick={() => setIsMenuOpen(false)}
-                >
-                  ライバー紹介
-                </a>
-                <a 
-                  href="#audition" 
-                  className="block py-3 px-4 text-white/80 hover:text-white hover:bg-white/10 rounded-lg transition-all"
-                  onClick={() => setIsMenuOpen(false)}
-                >
-                  オーディション
-                </a>
-                <a 
-                  href="#faq" 
-                  className="block py-3 px-4 text-white/80 hover:text-white hover:bg-white/10 rounded-lg transition-all"
-                  onClick={() => setIsMenuOpen(false)}
-                >
-                  FAQ
-                </a>
+              <nav className="flex-1 px-8 py-6">
+                <div className="space-y-1">
+                  <a
+                    href="#about"
+                    className="block py-4 text-lg font-medium text-gray-900 hover:text-blue-600 border-b border-gray-100 transition-colors"
+                    onClick={() => setIsMenuOpen(false)}
+                  >
+                    事業所概要
+                  </a>
+                  <a
+                    href="#strengths"
+                    className="block py-4 text-lg font-medium text-gray-900 hover:text-blue-600 border-b border-gray-100 transition-colors"
+                    onClick={() => setIsMenuOpen(false)}
+                  >
+                    強み
+                  </a>
+                  <a
+                    href="#support"
+                    className="block py-4 text-lg font-medium text-gray-900 hover:text-blue-600 border-b border-gray-100 transition-colors"
+                    onClick={() => setIsMenuOpen(false)}
+                  >
+                    サポート
+                  </a>
+                  <a
+                    href="#livers"
+                    className="block py-4 text-lg font-medium text-gray-900 hover:text-blue-600 border-b border-gray-100 transition-colors"
+                    onClick={() => setIsMenuOpen(false)}
+                  >
+                    ライバー紹介
+                  </a>
+                  <a
+                    href="#audition"
+                    className="block py-4 text-lg font-medium text-gray-900 hover:text-blue-600 border-b border-gray-100 transition-colors"
+                    onClick={() => setIsMenuOpen(false)}
+                  >
+                    オーディション
+                  </a>
+                  <a
+                    href="#faq"
+                    className="block py-4 text-lg font-medium text-gray-900 hover:text-blue-600 border-b border-gray-100 transition-colors"
+                    onClick={() => setIsMenuOpen(false)}
+                  >
+                    FAQ
+                  </a>
+                </div>
               </nav>
 
               {/* エントリーボタン */}
-              <Button 
-                className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                ⚡ エントリー
-              </Button>
+              <div className="p-8 border-t border-gray-100">
+                <Button
+                  className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-4 text-lg rounded-lg shadow-sm hover:shadow-md transition-all"
+                  onClick={() => setIsMenuOpen(false)}
+                >
+                  ⚡ エントリー
+                </Button>
+              </div>
             </div>
           </div>
         </>
