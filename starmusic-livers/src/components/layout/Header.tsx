@@ -13,7 +13,7 @@ export function Header() {
         className="fixed top-6 right-6 z-50 w-12 h-12 bg-blue-600/90 backdrop-blur-sm rounded-full flex items-center justify-center border border-blue-400/30 hover:bg-blue-600 hover:scale-110 active:scale-95 transition-all duration-200"
         aria-label="メニューを開く"
       >
-        <div className="space-y-2 transition-transform duration-200 hover:rotate-180">
+        <div className="space-y-2">
           <div className="w-5 h-0.5 bg-white transition-all duration-200"></div>
           <div className="w-5 h-0.5 bg-white transition-all duration-200"></div>
           <div className="w-5 h-0.5 bg-white transition-all duration-200"></div>
@@ -55,42 +55,42 @@ export function Header() {
                   </a>
                   <a
                     href="#about"
-                    className="block py-2 text-gray-800 hover:text-gray-600 transition-colors"
+                    className="block py-2 text-gray-800 font-bold hover:text-blue-600 transition-colors"
                     onClick={() => setIsMenuOpen(false)}
                   >
                     事業所概要
                   </a>
                   <a
                     href="#strengths"
-                    className="block py-2 text-gray-800 hover:text-gray-600 transition-colors"
+                    className="block py-2 text-gray-800 font-bold hover:text-blue-600 transition-colors"
                     onClick={() => setIsMenuOpen(false)}
                   >
                     強み
                   </a>
                   <a
                     href="#support"
-                    className="block py-2 text-gray-800 hover:text-gray-600 transition-colors"
+                    className="block py-2 text-gray-800 font-bold hover:text-blue-600 transition-colors"
                     onClick={() => setIsMenuOpen(false)}
                   >
                     サポート
                   </a>
                   <a
                     href="#livers"
-                    className="block py-2 text-gray-800 hover:text-gray-600 transition-colors"
+                    className="block py-2 text-gray-800 font-bold hover:text-blue-600 transition-colors"
                     onClick={() => setIsMenuOpen(false)}
                   >
                     ライバー紹介
                   </a>
                   <a
                     href="#audition"
-                    className="block py-2 text-gray-800 hover:text-gray-600 transition-colors"
+                    className="block py-2 text-gray-800 font-bold hover:text-blue-600 transition-colors"
                     onClick={() => setIsMenuOpen(false)}
                   >
                     オーディション
                   </a>
                   <a
                     href="#faq"
-                    className="block py-2 text-gray-800 hover:text-gray-600 transition-colors"
+                    className="block py-2 text-gray-800 font-bold hover:text-blue-600 transition-colors"
                     onClick={() => setIsMenuOpen(false)}
                   >
                     FAQ
