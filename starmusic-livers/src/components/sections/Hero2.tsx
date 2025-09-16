@@ -32,31 +32,30 @@ export function Hero2({ backgroundImage }: Hero2Props = {}) {
               </div>
             </div>
 
-            {/* Main content area */}
-            <div className="flex items-center justify-between mt-16">
+            {/* Large circle positioned exactly like reference - upper right */}
+            <div className="absolute top-0 right-0 lg:right-8">
+              <div className="relative">
+                <div className="w-64 h-64 lg:w-72 lg:h-72 bg-white/10 rounded-full flex items-center justify-center backdrop-blur-sm border border-white/20">
+                  <div className="text-center">
+                    <p className="text-white font-semibold text-base lg:text-lg mb-2">音楽ライバー</p>
+                    <p className="text-white/80 text-sm">あなたの音楽を世界に</p>
+                  </div>
+                </div>
+                {/* Small decorative circles */}
+                <div className="absolute -top-3 -right-3 w-8 h-8 lg:w-12 lg:h-12 bg-blue-600/30 rounded-full backdrop-blur-sm"></div>
+                <div className="absolute -bottom-3 -left-3 w-6 h-6 lg:w-8 lg:h-8 bg-white/20 rounded-full backdrop-blur-sm"></div>
+              </div>
+            </div>
 
+            {/* Main content area */}
+            <div className="mt-16">
               {/* Left side - Main heading */}
-              <div className="flex-1 max-w-md">
+              <div className="max-w-md">
                 <h1 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-black leading-tight">
                   <span className="block text-blue-600">次世代の</span>
                   <span className="block text-blue-600">音楽ライバー</span>
                   <span className="block text-white mt-2">になろう</span>
                 </h1>
-              </div>
-
-              {/* Right side - Large circle exactly like reference */}
-              <div className="flex-1 flex items-center justify-center">
-                <div className="relative">
-                  <div className="w-72 h-72 lg:w-80 lg:h-80 bg-white/10 rounded-full flex items-center justify-center backdrop-blur-sm border border-white/20">
-                    <div className="text-center">
-                      <p className="text-white font-semibold text-lg mb-2">音楽ライバー</p>
-                      <p className="text-white/80 text-sm">あなたの音楽を世界に</p>
-                    </div>
-                  </div>
-                  {/* Small decorative circles */}
-                  <div className="absolute -top-4 -right-4 w-12 h-12 bg-blue-600/30 rounded-full backdrop-blur-sm"></div>
-                  <div className="absolute -bottom-4 -left-4 w-8 h-8 bg-white/20 rounded-full backdrop-blur-sm"></div>
-                </div>
               </div>
             </div>
 
