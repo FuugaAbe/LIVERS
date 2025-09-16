@@ -32,7 +32,7 @@ export function Hero2({ backgroundImage }: Hero2Props = {}) {
           {/* Main heading - exactly like reference positioning */}
           <div>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-black leading-tight text-center max-w-lg mx-auto">
-              <span className="block text-blue-600">バイラルヒットを</span>
+              <span className="block text-blue-600 whitespace-nowrap">バイラルヒットを</span>
               <span className="block text-blue-600">生み出す</span>
               <span className="block text-white">アーティストに</span>
             </h1>
