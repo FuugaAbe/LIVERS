@@ -5,17 +5,17 @@ export function Livers() {
     {
       name: "Aさん",
       genre: "ポップス",
-      image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=300&h=300&fit=crop&crop=face"
+      emoji: "👩"
     },
     {
       name: "Bさん",
       genre: "ロック",
-      image: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=300&h=300&fit=crop&crop=face"
+      emoji: "👩"
     },
     {
       name: "Cさん",
       genre: "R&B",
-      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&h=300&fit=crop&crop=face"
+      emoji: "👨"
     }
   ]
 
@@ -35,11 +35,7 @@ export function Livers() {
           {livers.map((liver, index) => (
             <Card key={index} className="overflow-hidden py-0 border border-gray-200">
               <div className="aspect-square bg-blue-600 flex items-center justify-center">
-                <img
-                  src={liver.image}
-                  alt={liver.name}
-                  className="w-full h-full object-cover"
-                />
+                <div className="text-8xl">{liver.emoji}</div>
               </div>
               <CardContent className="p-6 text-center">
                 <h3 className="text-xl font-bold text-gray-900 mb-2">{liver.name}</h3>
