@@ -5,33 +5,33 @@ export function Livers() {
     {
       name: "Aさん",
       genre: "ポップス",
-      image: "https://images.unsplash.com/photo-1494790108755-2616c9c0d4e8?w=300&h=300&fit=crop&crop=face"
+      image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=300&h=300&fit=crop&crop=face"
     },
     {
       name: "Bさん",
       genre: "ロック",
-      image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=300&h=300&fit=crop&crop=face"
+      image: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=300&h=300&fit=crop&crop=face"
     },
     {
       name: "Cさん",
       genre: "R&B",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=300&fit=crop&crop=face"
+      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&h=300&fit=crop&crop=face"
     }
   ]
 
   return (
-    <section id="livers" className="py-30 bg-gray-100">
-      <div className="container mx-10 px-0">
-        <div className="text-center mb-10">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4 text-gray-900">
+    <section id="livers" className="py-20 bg-gray-100">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="text-center mb-16">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 text-gray-900">
             所属ライバー
           </h2>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+          <p className="text-base sm:text-lg text-gray-600 max-w-2xl mx-auto">
             StarMusic Liversで活躍するタレントたち
           </p>
         </div>
-        
-        <div className="grid md:grid-cols-3 gap-10 max-w-6xl mx-auto">
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 lg:gap-10 max-w-6xl mx-auto">
           {livers.map((liver, index) => (
             <Card key={index} className="overflow-hidden py-0 border border-gray-200">
               <div className="aspect-square bg-blue-600 flex items-center justify-center">
