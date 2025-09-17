@@ -48,9 +48,9 @@ export function Hero2({ backgroundImage }: Hero2Props = {}) {
           {/* Description - exactly like reference */}
           <div>
             <p className="text-sm sm:text-base lg:text-lg text-white/90 leading-relaxed max-w-lg text-center mx-auto">
-              総フォロワー5億人のTikTokクリエイターネットワークと<br />
-              Apple Music・Spotifyなど主要プラットフォームへ<br />
-              同時リリース。データ分析に基づく楽曲制作から<br />
+              TikTok認定パートナーとして1,000名以上のライバー<br />
+              サポート実績を持つ当社が、Apple Music・Spotifyなど<br />
+              主要プラットフォームへの楽曲配信から専用マネージャーによる<br />
               戦略的プロモーションまで一気通貫サポート。
             </p>
           </div>
