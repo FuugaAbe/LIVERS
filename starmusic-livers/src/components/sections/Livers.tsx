@@ -3,19 +3,19 @@ import { Card, CardContent } from '@/components/ui/card'
 export function Livers() {
   const livers = [
     {
-      name: "準備中",
+      name: "Aさん",
       genre: "ポップス",
-      image: "https://via.placeholder.com/300x300?text=Coming+Soon"
+      image: "https://images.unsplash.com/photo-1494790108755-2616c9c0d4e8?w=300&h=300&fit=crop&crop=face"
     },
     {
-      name: "準備中",
+      name: "Bさん",
       genre: "ロック",
-      image: "https://via.placeholder.com/300x300?text=Coming+Soon"
+      image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=300&h=300&fit=crop&crop=face"
     },
     {
-      name: "準備中",
+      name: "Cさん",
       genre: "R&B",
-      image: "https://via.placeholder.com/300x300?text=Coming+Soon"
+      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=300&fit=crop&crop=face"
     }
   ]
 
@@ -35,7 +35,11 @@ export function Livers() {
           {livers.map((liver, index) => (
             <Card key={index} className="overflow-hidden py-0 border border-gray-200">
               <div className="aspect-square bg-blue-600 flex items-center justify-center">
-                <div className="text-6xl text-white">🎤</div>
+                <img
+                  src={liver.image}
+                  alt={liver.name}
+                  className="w-full h-full object-cover"
+                />
               </div>
               <CardContent className="p-6 text-center">
                 <h3 className="text-xl font-bold text-gray-900 mb-2">{liver.name}</h3>
