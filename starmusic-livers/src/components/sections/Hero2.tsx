@@ -51,7 +51,7 @@ export function Hero2({ backgroundImage }: Hero2Props = {}) {
               総フォロワー5億人のTikTokクリエイターネットワークと<br />
               Apple Music・Spotifyなど主要プラットフォームへ<br />
               同時リリース。データ分析に基づく楽曲制作から<br />
-              戦略的プロモーションまで一気通丝サポート。
+              戦略的プロモーションまで一気通貫サポート。
             </p>
           </div>
 
