@@ -1,7 +1,7 @@
 export function About() {
   return (
-    <section id="about" className="py-30 bg-gray-100">
-      <div className="container mx-10 px-0">
+    <section id="about" className="py-20 bg-gray-100">
+      <div className="w-full px-5 sm:px-10 lg:px-10">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 text-gray-900">
             About Us

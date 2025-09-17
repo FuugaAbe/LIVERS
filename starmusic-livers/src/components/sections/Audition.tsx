@@ -21,9 +21,9 @@ export function Audition() {
   ]
 
   return (
-    <section id="audition" className="py-30 bg-white">
-      <div className="container mx-10 px-0">
-        <div className="text-center mb-10">
+    <section id="audition" className="py-20 bg-white">
+      <div className="w-full px-5 sm:px-10 lg:px-10">
+        <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 text-gray-900">
             Audition
           </h2>
@@ -35,13 +35,13 @@ export function Audition() {
           </Button>
         </div>
 
-        <div className="max-w-6xl mx-auto space-y-10">
+        <div className="space-y-10">
           {/* 応募までの流れ */}
           <div>
             <h3 className="text-3xl font-bold text-center mb-10 text-gray-900">
               応募までの流れ
             </h3>
-            <div className="grid md:grid-cols-4 gap-10">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8 lg:gap-10">
               {flowSteps.map((step, index) => (
                 <Card key={index} className="text-center border border-gray-200">
                   <CardHeader>
@@ -59,7 +59,7 @@ export function Audition() {
           </div>
 
           {/* 応募条件 */}
-          <div className="grid md:grid-cols-2 gap-10">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 lg:gap-10">
             <Card className="border-2 border-red-200">
               <CardHeader>
                 <CardTitle className="text-2xl flex items-center gap-2">

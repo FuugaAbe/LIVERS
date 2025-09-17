@@ -22,9 +22,9 @@ export function FAQ() {
   ]
 
   return (
-    <section id="faq" className="py-30 bg-gray-100">
-      <div className="container mx-10 px-0">
-        <div className="text-center mb-10">
+    <section id="faq" className="py-20 bg-gray-100">
+      <div className="w-full px-5 sm:px-10 lg:px-10">
+        <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 text-gray-900">
             よくある質問
           </h2>
