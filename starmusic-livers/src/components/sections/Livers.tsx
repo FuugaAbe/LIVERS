@@ -21,7 +21,7 @@ export function Livers() {
 
   return (
     <section id="livers" className="py-20 bg-gray-100">
-      <div className="container mx-auto px-5 sm:px-6 lg:px-8">
+      <div className="w-full px-5 sm:px-10 lg:px-10">
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 text-gray-900">
             所属ライバー
@@ -31,7 +31,7 @@ export function Livers() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 lg:gap-10 max-w-6xl mx-auto">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 lg:gap-10">
           {livers.map((liver, index) => (
             <Card key={index} className="overflow-hidden py-0 border border-gray-200">
               <div className="aspect-square bg-blue-600 flex items-center justify-center">
