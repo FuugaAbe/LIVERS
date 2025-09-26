@@ -1,0 +1,188 @@
+@charset "utf-8";
+/*------------------------------------------------------------
+	デフォルトスタイル
+------------------------------------------------------------*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, figcaption, figure, section {
+	margin: 0;
+	padding: 0;
+	background: transparent;
+	border: 0;
+	outline: 0;
+	font-size: 1em;
+	box-sizing: border-box;
+}
+html {
+	font-size: 62.5%;
+}
+body, table, input, textarea, select, option {
+	font-family: "Noto Sans JP", sans-serif;
+}
+
+.inter {
+	font-family: "Inter", sans-serif;
+}
+
+.roboto {
+	font-family: "Roboto Flex", sans-serif;
+}
+article, aside, canvas, details, figcaption, figure, footer, header, main, hgroup, menu, nav, section, summary {
+	display: block;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+:focus {
+	outline: 0;
+}
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+img {
+	vertical-align: top;
+	max-width: 100%;
+	height: auto;
+}
+address {
+	font-style: normal;
+}
+a {
+	color: #FFF;
+	text-decoration: none;
+}
+/*------------------------------------------------------------
+	レイアウト
+------------------------------------------------------------*/
+body {
+	color: #FFF;
+	font-size: 1.6rem;
+	line-height: 1.5;
+	font-weight: 400;
+	text-align: center;
+	background-color: #302E3D;
+	text-size-adjust: none;
+	-webkit-text-size-adjust: none;
+}
+
+#container {
+	text-align: left;	
+	overflow: hidden;
+	background-color: #787878FF;
+}
+#main {
+	display: block;
+}
+.fax {
+	cursor: default;
+	pointer-events: none;
+}
+/*------------------------------------------------------------
+	ヘッダー
+------------------------------------------------------------*/
+#gHeader {
+	height: 7rem;
+	position: fixed;
+	top: 1.6rem;
+	left: 0;
+	width: 100%;
+	z-index: 1000;
+}
+#gHeader .hInner {
+	padding: 0 1.6rem;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+}
+.menu {
+	cursor: pointer;
+}
+.menu img {
+	width: 4.8rem;
+}
+.menu.on {
+	background: url(../img/common/close.png) no-repeat left top;
+	background-size: 4.8rem auto;
+}
+.menu.on img {
+	visibility: hidden;
+}
+.menuBox {
+	display: none;
+	position: fixed;
+	top: 8rem;
+	left: 0;
+	overflow-y: auto;
+	width: 100%;
+	height: calc(100vh - 8rem);
+}
+.menuBox .subMenu {
+	background-color: #fff;
+	border-radius: 2.4rem;
+	padding: 1.9rem 2.4rem 2.5rem;
+	margin: 0 1.6rem 4rem;
+}
+.menuBox a {
+	display: block;
+	font-size: 2rem;
+	font-weight: 700;
+}
+.menuBox ul {
+	margin-bottom: 4.5rem;
+}
+.menuBox li {
+	margin-bottom: 2rem;
+}
+.menuBox a .en {
+	margin-top: -0.1rem;
+	display: block;
+	font-size: 1.4rem;
+	color: #0D5AC5;
+	font-weight: 500;
+}
+.menuBox .lineLink {
+	max-width: 32.9rem;
+}
+.menuBox .lineLink a {
+	font-size: 1.6rem;
+}
+/*------------------------------------------------------------
+	フッター
+------------------------------------------------------------*/
+#gFooter {
+	padding: 8rem 0 2rem;
+	text-align: center;
+	background-color: #262532;
+}
+#gFooter .fLogo {
+	margin-bottom: 7.9rem;
+}
+address {
+	font-size: 1rem;
+	color: #9A99A4;
+}
+
+@media all and (max-width: 392px) {
+	html {
+		font-size: 2.5vw;
+	}
+}
+
+
+@media all and (min-width: 897px) {
+	body {
+		max-width: 39.3rem;
+		margin: 0 auto;
+	}
+	#gHeader {
+		max-width: 39.3rem;
+		margin: 0 auto;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+}
