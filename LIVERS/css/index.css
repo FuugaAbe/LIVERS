@@ -346,7 +346,7 @@
 	width: 100%;
 }
 #main .voice p {
-	color: #000;
+	color: #FFF;
 	margin-bottom: 2.4rem;
 	line-height: 1.7;
 }
@@ -358,7 +358,7 @@
 	font-size: 2.4rem;
 	font-weight: 600;
 	text-align: center;
-	color: #000;
+	color: #FFF;
 	letter-spacing: -0.06rem;
 }
 #main .voice .txt {
