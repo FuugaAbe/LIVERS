@@ -52,14 +52,14 @@ address {
 	font-style: normal;
 }
 a {
-	color: #302E3D;
+	color: #FFF;
 	text-decoration: none;
 }
 /*------------------------------------------------------------
 	レイアウト
 ------------------------------------------------------------*/
 body {
-	color: #302E3D;
+	color: #FFF;
 	font-size: 1.6rem;
 	line-height: 1.5;
 	font-weight: 400;
