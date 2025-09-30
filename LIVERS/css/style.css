@@ -64,7 +64,7 @@ body {
 	line-height: 1.5;
 	font-weight: 400;
 	text-align: center;
-	background-color: #787878FF;
+	background-color: #FFF;
 	text-size-adjust: none;
 	-webkit-text-size-adjust: none;
 }
@@ -72,7 +72,7 @@ body {
 #container {
 	text-align: left;	
 	overflow: hidden;
-	background-color: #787878FF;
+	background-color: #FFF;
 }
 #main {
 	display: block;
@@ -157,7 +157,7 @@ body {
 #gFooter {
 	padding: 8rem 0 2rem;
 	text-align: center;
-	background-color: #fff;
+	background-color: #262532;
 }
 #gFooter .fLogo {
 	margin-bottom: 7.9rem;
