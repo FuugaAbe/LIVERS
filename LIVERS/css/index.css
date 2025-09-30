@@ -346,7 +346,7 @@
 	width: 100%;
 }
 #main .voice p {
-	color: #FFF;
+	color: #fff;
 	margin-bottom: 2.4rem;
 	line-height: 1.7;
 }
@@ -358,7 +358,7 @@
 	font-size: 2.4rem;
 	font-weight: 600;
 	text-align: center;
-	color: #FFF;
+	color: #fff;
 	letter-spacing: -0.06rem;
 }
 #main .voice .txt {
@@ -427,7 +427,7 @@
 	flex-wrap: wrap;
 	align-items: stretch;
 	justify-content: space-between;
-	background-color: #fff;
+	background-color: #302E3D;
 	border-radius: 2.4rem;
 	padding: 1.6rem 0;
 	position: relative;
@@ -472,7 +472,7 @@
 	margin-bottom: 1.8rem;
 	font-size: 1.4rem;
 	line-height: 1.7;
-	color: #696776;
+	color: #fff;
 }
 #main .flowList li p:last-child {
 	margin-bottom: 0;
@@ -480,7 +480,7 @@
 #main .flowList li h3 {
 	margin-bottom: 0.4rem;
 	letter-spacing: -0.04rem;
-	color: #FFF;
+	color: #fff;
 	font-weight: 600;
 }
 #main .flowList li .link {

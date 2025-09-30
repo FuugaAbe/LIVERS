@@ -59,12 +59,12 @@ a {
 	レイアウト
 ------------------------------------------------------------*/
 body {
-	color: #302E3D;
+	color: #FBF9F1;
 	font-size: 1.6rem;
 	line-height: 1.5;
 	font-weight: 400;
 	text-align: center;
-	background-color: #FBF9F1;
+	background-color: #FFF;
 	text-size-adjust: none;
 	-webkit-text-size-adjust: none;
 }
