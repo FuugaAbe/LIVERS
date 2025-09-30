@@ -59,12 +59,12 @@ a {
 	レイアウト
 ------------------------------------------------------------*/
 body {
-	color: #FFF;
+	color: #302E3D;
 	font-size: 1.6rem;
 	line-height: 1.5;
 	font-weight: 400;
 	text-align: center;
-	background-color: #302E3D;
+	background-color: #FFF;
 	text-size-adjust: none;
 	-webkit-text-size-adjust: none;
 }
@@ -72,7 +72,7 @@ body {
 #container {
 	text-align: left;	
 	overflow: hidden;
-	background-color: #FFF;
+	background-color: #302E3D;
 }
 #main {
 	display: block;
