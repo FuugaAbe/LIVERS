@@ -37,11 +37,11 @@ a.tapCtrl, input.tapCtrl,.tapCtrl a, .tapCtrl input {
 	margin-bottom: 0.7rem;
 	padding: 0.3rem 1.5rem 0.2rem;
 	font-size: 1.6rem;
-	color: #06C755;
+	color: #0D5AC5;
 	font-weight: 600;
 	border-radius: 5rem;
 	position: relative;
-	border: 0.2rem solid #06C755; 
+	border: 0.2rem solid #0D5AC5; 
 	display: inline-block;
 	letter-spacing: 0;
 }
