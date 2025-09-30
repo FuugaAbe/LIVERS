@@ -59,7 +59,7 @@ a {
 	レイアウト
 ------------------------------------------------------------*/
 body {
-	color: #FBF9F1;
+	color: #fff;
 	font-size: 1.6rem;
 	line-height: 1.5;
 	font-weight: 400;
@@ -142,7 +142,7 @@ body {
 	margin-top: -0.1rem;
 	display: block;
 	font-size: 1.4rem;
-	color: #0D5AC5;
+	color: #302E3D;
 	font-weight: 500;
 }
 .menuBox .lineLink {
