@@ -216,7 +216,7 @@
 #main .advantages {
 	padding: 7.5rem 0 8rem;
 	border-radius: 4.8rem;
-	background-color: #0A489D;;
+	background-color: #F2F2F2;;
 }
 #main .advantages .headLine01 {
 	margin-bottom: 3.3rem;
@@ -519,14 +519,14 @@
 #main .faq {
 	padding: 7.5rem 0 8rem;
 	color: #fff;
-	background-color: #0D5AC5;
+	background-color: #F2F2F2;
 }
 #main .faq .headLine01 {
 	text-align: center;
 }
 #main .faq .headLine01 .en {
-	color: #fff;
-	border-color: #fff;
+	color: #302E3D;
+	border-color: #302E3D;
 }
 #main .faq .headLine01 .en::before {
 	background-color: #fff;
@@ -537,7 +537,7 @@
 }
 #main .faqList li {
 	padding: 3.0rem 0 2.9rem;
-	border-bottom: 0.1rem solid #fff;
+	border-bottom: 0.1rem solid #302E3D;
 }
 #main .faqList li dt {
 	cursor: pointer;
