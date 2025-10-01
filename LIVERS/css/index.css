@@ -518,7 +518,7 @@
 }
 #main .faq {
 	padding: 7.5rem 0 8rem;
-	color: #fff;
+	color: #302E3D;
 	background-color: #F2F2F2;
 }
 #main .faq .headLine01 {
@@ -529,11 +529,11 @@
 	border-color: #302E3D;
 }
 #main .faq .headLine01 .en::before {
-	background-color: #fff;
+	background-color: #302E3D;
 }
 #main .faqList {
 	margin-top: 3.4rem;
-	border-top: 0.1rem solid #fff;
+	border-top: 0.1rem solid #302E3D;
 }
 #main .faqList li {
 	padding: 3.0rem 0 2.9rem;
