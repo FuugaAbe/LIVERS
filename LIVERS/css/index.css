@@ -358,7 +358,7 @@
 	font-size: 2.4rem;
 	font-weight: 600;
 	text-align: center;
-	color: #fff;
+	color: #302E3D;
 	letter-spacing: -0.06rem;
 }
 #main .voice .txt {
@@ -427,7 +427,7 @@
 	flex-wrap: wrap;
 	align-items: stretch;
 	justify-content: space-between;
-	background-color: #302E3D;
+	background-color: #F2F2F2;
 	border-radius: 2.4rem;
 	padding: 1.6rem 0;
 	position: relative;
