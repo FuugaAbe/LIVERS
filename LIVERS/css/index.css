@@ -96,7 +96,7 @@
 	display: block;
 	font-size: 14px;
 	font-weight: 400;
-	color: #4A4839;
+	color: #2A2A2A;
 }
 #main .mainImg .fooUl .sub .number1 {
 	font-family: "Inter", sans-serif;
@@ -147,10 +147,10 @@
     font-weight: bold;
 }
 #main .mainImg .fooUl .sub p .txtSpan {
-	color: #4A4839;
+	color: #2A2A2A;
 }
 #main .mainImg .fooUl .sub p .txtSpan02 {
-	color: #4A4839;
+	color: #2A2A2A;
 }
 #main .creator {
 	margin: -1.5rem 0 0;
@@ -252,7 +252,7 @@
 	padding: 7.5rem 0;
 }
 #main .support .jsBox {
-	border-bottom: 1px solid #4A4839; 
+	border-bottom: 1px solid #2A2A2A; 
 }
 #main .support .jsBox .after {
 	display: none;
@@ -263,7 +263,7 @@
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: space-between;
-	border-top: 1px solid #4A4839; 
+	border-top: 1px solid #2A2A2A; 
 }
 #main .support .sub .photoBox {
 	width: 10.4rem;
@@ -371,7 +371,7 @@
 	padding-bottom: 2.4rem;
 	margin-bottom: 2.3rem;
 	position: relative;
-	border-bottom: 0.1rem solid #4A4839;
+	border-bottom: 0.1rem solid #2A2A2A;
 }
 #main .voice .txt::before {
 	width: 2.1rem;  
@@ -466,7 +466,7 @@
 	flex: 1;
 	margin-top: -0.1rem;
 	padding: 0 1.5rem;
-	border-left: 0.1rem solid #4A4839;
+	border-left: 0.1rem solid #2A2A2A;
 }
 #main .flowList li p {
 	margin-bottom: 1.8rem;
