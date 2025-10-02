@@ -37,11 +37,11 @@ a.tapCtrl, input.tapCtrl,.tapCtrl a, .tapCtrl input {
 	margin-bottom: 0.7rem;
 	padding: 0.3rem 1.5rem 0.2rem;
 	font-size: 1.6rem;
-	color: #0D5AC5;
+	color: #5B9EFF;
 	font-weight: 600;
 	border-radius: 5rem;
 	position: relative;
-	border: 0.2rem solid #0D5AC5;
+	border: 0.2rem solid #5B9EFF;
 	display: inline-block;
 	letter-spacing: 0;
 }
@@ -51,7 +51,7 @@ a.tapCtrl, input.tapCtrl,.tapCtrl a, .tapCtrl input {
 	vertical-align: 0.2rem;
 	border-radius: 100%;
 	margin-right: 0.3rem;
-	background-color: #0D5AC5;
+	background-color: #5B9EFF;
 	display: inline-block;
 	content: "";
 }
@@ -68,7 +68,7 @@ a.tapCtrl, input.tapCtrl,.tapCtrl a, .tapCtrl input {
 	align-items: center;
 	justify-content: center;
 	font-weight: 700;
-	color: #fff;
+	color: #26241B;
 	min-height: 6.4rem;
 	border-radius: 5rem;
 	position: relative;
@@ -103,7 +103,7 @@ a.tapCtrl, input.tapCtrl,.tapCtrl a, .tapCtrl input {
 }
 .popBox .textBox {
 	padding: 2.2rem 2.4rem;
-	background-color: #F2F2F2;
+	background-color: #1A1916;
 }
 .popBox .textBox p {
 	line-height: 1.7;
@@ -118,24 +118,24 @@ a.tapCtrl, input.tapCtrl,.tapCtrl a, .tapCtrl input {
 	margin-bottom: -0.2rem;
 	display: block;
 	font-size: 1.4rem;
-	color: #0D5AC5;
+	color: #5B9EFF;
 	letter-spacing: 0;
 	font-weight: 400;
 }
 .popBox .textBox .name .en02 {
-	color: #0D5AC5;
+	color: #5B9EFF;
 }
 .popBox .textBox .name .en03 {
-	color: #0D5AC5;
+	color: #5B9EFF;
 }
 .popBox .textBox .name .en04 {
-	color: #0D5AC5;
+	color: #5B9EFF;
 }
 .popBox .textBox .name .en05 {
-	color: #0D5AC5;
+	color: #5B9EFF;
 }
 .popBox .textBox .name .en06 {
-	color: #0D5AC5;
+	color: #5B9EFF;
 }
 .mfp-container {
 	padding: 8rem 1.6rem;
@@ -180,8 +180,8 @@ a.tapCtrl, input.tapCtrl,.tapCtrl a, .tapCtrl input {
 	box-sizing: border-box;
 	width: 13.1rem;
 	border-radius: 1.6rem;
-	color: #fff;
-	background-color: #262532;
+	color: #E5E5E5;
+	background-color: #1A1916;
 }
 .fixdBox .sub:after {
 	width: 1.6rem;
