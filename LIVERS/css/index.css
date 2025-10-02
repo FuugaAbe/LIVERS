@@ -7,25 +7,25 @@
 	position: relative;
 }
 #main .mainImg:after {
-	width: 26.4rem;  
+	width: 26.4rem;
 	height: 16.2rem;
 	background: url(../img/index/bg01.png) no-repeat;
 	background-size: 100% auto;
-	position: absolute;  
+	position: absolute;
 	top: -2rem;
-	right: -5.7rem;  
-	content: ""; 
+	right: -5.7rem;
+	content: "";
 	z-index: -1;
 }
 #main .mainImg::before {
-	width: 44.4rem;  
+	width: 44.4rem;
 	height: 100%;
 	background: url(../img/index/bg02.png) no-repeat;
 	background-size: 100% auto;
-	position: absolute;  
+	position: absolute;
 	top: 4.3rem;
-	left: -10.5rem;  
-	content: ""; 
+	left: -10.5rem;
+	content: "";
 	z-index: -1;
 }
 #main .mainImg .fooUl .slick-slide > div {
@@ -71,17 +71,17 @@
 	padding: 1.6rem;;
 	background-color: #D2F0F2;
 	border-radius: 0.8rem;
-	backdrop-filter: blur(2.5px); 
+	backdrop-filter: blur(2.5px);
 }
 #main .mainImg .fooUl .sub02 {
 	border-color: rgba(8, 3, 46, 0.13);
 	background-color: #FCE5D6;
-	backdrop-filter: blur(4px); 
+	backdrop-filter: blur(4px);
 }
 #main .mainImg .fooUl .sub03 {
 	border-color: rgba(8, 3, 46, 0.13);
 	background-color: #FFE0F3;
-	backdrop-filter: blur(4px); 
+	backdrop-filter: blur(4px);
 }
 #main .mainImg .fooUl .sub .value p {
 	font-weight: 600;
@@ -252,7 +252,7 @@
 	padding: 7.5rem 0;
 }
 #main .support .jsBox {
-	border-bottom: 1px solid #A5A5A5; 
+	border-bottom: 1px solid #A5A5A5;
 }
 #main .support .jsBox .after {
 	display: none;
@@ -263,7 +263,7 @@
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: space-between;
-	border-top: 1px solid #A5A5A5; 
+	border-top: 1px solid #A5A5A5;
 }
 #main .support .sub .photoBox {
 	width: 10.4rem;
@@ -371,27 +371,27 @@
 	padding-bottom: 2.4rem;
 	margin-bottom: 2.3rem;
 	position: relative;
-	border-bottom: 0.1rem solid #A5A5A5;
+	/*--border-bottom: 0.1rem solid #A5A5A5;*/
 }
 #main .voice .txt::before {
-	width: 2.1rem;  
+	width: 2.1rem;
 	height: 1.6rem;
 	background: url(../img/index/icon01.png) no-repeat;
 	background-size: 100% auto;
-	position: absolute;  
+	position: absolute;
 	top: 0;
-	left: 0;  
-	content: ""; 
+	left: 0;
+	content: "";
 }
 #main .voice .txt:after {
-	width: 2.1rem;  
+	width: 2.1rem;
 	height: 1.6rem;
 	background: url(../img/index/icon02.png) no-repeat;
 	background-size: 100% auto;
-	position: absolute;  
+	position: absolute;
 	bottom: 2.3rem;
-	right: 0;  
-	content: ""; 
+	right: 0;
+	content: "";
 }
 #main .voice h3 {
 	margin-bottom: 1.6rem;
@@ -436,15 +436,15 @@
 	margin-bottom: 0;
 }
 #main .flowList li:after {
-	width: 2.5rem;  
+	width: 2.5rem;
 	height: 2.2rem;
 	background: url(../img/common/arrow.png) no-repeat;
 	background-size: 100% auto;
-	position: absolute;  
+	position: absolute;
 	bottom: -4.6rem;
 	left: 50%;
-	transform: translateX(-50%);  
-	content: ""; 
+	transform: translateX(-50%);
+	content: "";
 }
 #main .flowList li:last-child::after {
 	display: none;
