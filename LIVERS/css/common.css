@@ -37,11 +37,11 @@ a.tapCtrl, input.tapCtrl,.tapCtrl a, .tapCtrl input {
 	margin-bottom: 0.7rem;
 	padding: 0.3rem 1.5rem 0.2rem;
 	font-size: 1.6rem;
-	color: #5B9EFF;
+	color: #3585F2;
 	font-weight: 600;
 	border-radius: 5rem;
 	position: relative;
-	border: 0.2rem solid #5B9EFF;
+	border: 0.2rem solid #3585F2;
 	display: inline-block;
 	letter-spacing: 0;
 }
@@ -51,7 +51,7 @@ a.tapCtrl, input.tapCtrl,.tapCtrl a, .tapCtrl input {
 	vertical-align: 0.2rem;
 	border-radius: 100%;
 	margin-right: 0.3rem;
-	background-color: #5B9EFF;
+	background-color: #3585F2;
 	display: inline-block;
 	content: "";
 }
@@ -118,24 +118,24 @@ a.tapCtrl, input.tapCtrl,.tapCtrl a, .tapCtrl input {
 	margin-bottom: -0.2rem;
 	display: block;
 	font-size: 1.4rem;
-	color: #5B9EFF;
+	color: #3585F2;
 	letter-spacing: 0;
 	font-weight: 400;
 }
 .popBox .textBox .name .en02 {
-	color: #5B9EFF;
+	color: #3585F2;
 }
 .popBox .textBox .name .en03 {
-	color: #5B9EFF;
+	color: #3585F2;
 }
 .popBox .textBox .name .en04 {
-	color: #5B9EFF;
+	color: #3585F2;
 }
 .popBox .textBox .name .en05 {
-	color: #5B9EFF;
+	color: #3585F2;
 }
 .popBox .textBox .name .en06 {
-	color: #5B9EFF;
+	color: #3585F2;
 }
 .mfp-container {
 	padding: 8rem 1.6rem;
