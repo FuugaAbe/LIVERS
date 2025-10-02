@@ -41,7 +41,7 @@ a.tapCtrl, input.tapCtrl,.tapCtrl a, .tapCtrl input {
 	font-weight: 600;
 	border-radius: 5rem;
 	position: relative;
-	border: 0.2rem solid #5E9DF5;
+	border: 0.2rem solid #A5A5A5;
 	display: inline-block;
 	letter-spacing: 0;
 }
