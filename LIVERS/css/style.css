@@ -70,7 +70,7 @@ body {
 }
 
 #container {
-	text-align: left;	
+	text-align: left;
 	overflow: hidden;
 	background-color: #F2F2F2;
 }
@@ -157,7 +157,7 @@ body {
 #gFooter {
 	padding: 8rem 0 2rem;
 	text-align: center;
-	background-color: #F2F2F2;
+	background-color: #fff;
 }
 #gFooter .fLogo {
 	margin-bottom: 7.9rem;
