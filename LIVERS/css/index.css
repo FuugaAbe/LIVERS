@@ -226,7 +226,7 @@
 	margin-bottom: 2.4rem;
 	border-radius: 2.4rem;
 	overflow: hidden;
-	background-color: #2A2820;
+	background-color: #2A2A2A;
 }
 #main .advantages .inner:last-child {
 	margin-bottom: 0;
@@ -427,7 +427,7 @@
 	flex-wrap: wrap;
 	align-items: stretch;
 	justify-content: space-between;
-	background-color: #2A2820;
+	background-color: #2A2A2A;
 	border-radius: 2.4rem;
 	padding: 1.6rem 0;
 	position: relative;
@@ -519,7 +519,7 @@
 #main .faq {
 	padding: 7.5rem 0 8rem;
 	color: #E5E5E5;
-	background-color: #2A2820;
+	background-color: #2A2A2A;
 }
 #main .faq .headLine01 {
 	text-align: center;
