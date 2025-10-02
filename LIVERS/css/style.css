@@ -64,7 +64,10 @@ body {
 	line-height: 1.5;
 	font-weight: 400;
 	text-align: center;
-	background-color: #1A1916;
+	background-image: url(../img/common/BG.png);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
 	text-size-adjust: none;
 	-webkit-text-size-adjust: none;
 }
