@@ -3,9 +3,9 @@
 	汎用スタイル
 ------------------------------------------------------------*/
 /* 81-PSP */
-/* clearfix */	
+/* clearfix */
 .clearfix:after {content: "";display: block;clear: both;}
-/* flex */	
+/* flex */
 .flex,.flexA,.flexB,.flexC {display: flex;flex-wrap: wrap;}
 .flexA {justify-content: space-around;}
 .flexB {justify-content: space-between;}
@@ -41,19 +41,19 @@ a.tapCtrl, input.tapCtrl,.tapCtrl a, .tapCtrl input {
 	font-weight: 600;
 	border-radius: 5rem;
 	position: relative;
-	border: 0.2rem solid #0D5AC5; 
+	border: 0.2rem solid #0D5AC5;
 	display: inline-block;
 	letter-spacing: 0;
 }
 .headLine01 .en::before {
-	width: 0.8rem;  
+	width: 0.8rem;
 	height: 0.8rem;
 	vertical-align: 0.2rem;
 	border-radius: 100%;
 	margin-right: 0.3rem;
 	background-color: #0D5AC5;
 	display: inline-block;
-	content: ""; 
+	content: "";
 }
 
 /*------------------------------------------------------------
@@ -89,8 +89,8 @@ a.tapCtrl, input.tapCtrl,.tapCtrl a, .tapCtrl input {
 	border-radius: 2.4rem;
 	overflow: hidden;
 	position: relative;
-	box-shadow: 0 0 0.8rem 0 rgba(0, 0, 0, 0.12); 
-	backdrop-filter: blur(12px); 
+	box-shadow: 0 0 0.8rem 0 rgba(0, 0, 0, 0.12);
+	backdrop-filter: blur(12px);
 }
 .popBox .close {
 	position: absolute;
@@ -103,7 +103,7 @@ a.tapCtrl, input.tapCtrl,.tapCtrl a, .tapCtrl input {
 }
 .popBox .textBox {
 	padding: 2.2rem 2.4rem;
-	background-color: #FBF9F1;
+	background-color: #F2F2F2;
 }
 .popBox .textBox p {
 	line-height: 1.7;
@@ -123,19 +123,19 @@ a.tapCtrl, input.tapCtrl,.tapCtrl a, .tapCtrl input {
 	font-weight: 400;
 }
 .popBox .textBox .name .en02 {
-	color: #BB41FA;
+	color: #0D5AC5;
 }
 .popBox .textBox .name .en03 {
-	color: #E36009;
+	color: #0D5AC5;
 }
 .popBox .textBox .name .en04 {
-	color: #3585F2;
+	color: #0D5AC5;
 }
 .popBox .textBox .name .en05 {
-	color: #F035A5;
+	color: #0D5AC5;
 }
 .popBox .textBox .name .en06 {
-	color: #3585F2;
+	color: #0D5AC5;
 }
 .mfp-container {
 	padding: 8rem 1.6rem;
@@ -184,14 +184,14 @@ a.tapCtrl, input.tapCtrl,.tapCtrl a, .tapCtrl input {
 	background-color: #262532;
 }
 .fixdBox .sub:after {
-	width: 1.6rem;  
+	width: 1.6rem;
 	height: 0.8rem;
 	background: url(../img/common/icon01.png) no-repeat;
 	background-size: 100% auto;
-	position: absolute;  
+	position: absolute;
 	bottom: -0.8rem;
-	right: 1.5rem;  
-	content: ""; 
+	right: 1.5rem;
+	content: "";
 }
 .fixdBox p {
 	font-size: 1.2rem;
