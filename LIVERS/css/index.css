@@ -52,7 +52,7 @@
 	display: none;
 }
 #main .mainImg .slick-dots li.slick-active {
-	background-color: #3585F2;
+	background-color: #5E9DF5;
 }
 #main .mainImg .fooUl a {
 	display: block;
@@ -161,14 +161,14 @@
 	font-weight: 700;
 }
 #main .creator p .blue {
-	color: #3585F2;
+	color: #5E9DF5;
 }
 #main .creator .ttl {
 	margin-bottom: 0.4rem;
 	font-size: 4rem;
 	line-height: 0.9;
 	font-weight: 900;
-	color: #3585F2;
+	color: #5E9DF5;
 }
 #main .creator .inner {
 	margin-bottom: 7rem;
@@ -281,7 +281,7 @@
 #main .support .sub .ttl {
 	margin-bottom: 0.5rem;
 	font-weight: 600;
-	color: #3585F2;
+	color: #5E9DF5;
 	letter-spacing: -0.04rem;
 }
 #main .support .jsLink {
@@ -363,7 +363,7 @@
 }
 #main .voice .txt {
 	font-size: 1.8rem;
-	color: #3585F2;
+	color: #5E9DF5;
 	font-weight: 600;
 	text-align: center;
 	line-height: 1.5;
@@ -460,7 +460,7 @@
 	align-items: center;
 	justify-content: center;
 	text-align: center;
-	color: #3585F2;
+	color: #5E9DF5;
 }
 #main .flowList li .rBox {
 	flex: 1;
@@ -525,11 +525,11 @@
 	text-align: center;
 }
 #main .faq .headLine01 .en {
-	color: #3585F2;
-	border-color: #3585F2;
+	color: #5E9DF5;
+	border-color: #5E9DF5;
 }
 #main .faq .headLine01 .en::before {
-	background-color: #3585F2;
+	background-color: #5E9DF5;
 }
 #main .faqList {
 	margin-top: 3.4rem;
